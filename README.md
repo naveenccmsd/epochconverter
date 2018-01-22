@@ -1,4 +1,4 @@
-# vuepoch
+# Epoch Converter
 
 > Epoch & Unix Timestamp Conversion tools using Vue.js
 

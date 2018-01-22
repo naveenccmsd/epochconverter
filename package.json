@@ -1,8 +1,9 @@
 {
-  "name": "vuepoch",
+  "name": "epochconverter",
   "version": "1.0.0",
   "description": "Epoch & Unix Timestamp Conversion tools using Vue.js",
   "author": "naveen.ccmsd@gmail.com",
+  "homepage": "https://naveenccmsd.github.io/epochconverter",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
