@@ -3,14 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Vue2Epoch from 'vue2-epoch'
+
+Vue.use(Vue2Epoch)
 
 Vue.config.productionTip = false
-
-Vue.filter('capitalize', function (value) {
-  if (!value) return ''
-  value = value.toString()
-  return value.toUpperCase()
-})
 
 Vue.filter('epoch-to-date-gmt', function (value) {
   if (!value) return ''

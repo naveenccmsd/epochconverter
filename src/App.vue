@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <div class="container">
-        <section class="hero">
+    <div class="containe is-fullhdr">
+        <section class="hero is-info">
           <div class="hero-body">
               <h1 class="title">
                 Epoch & Unix Timestamp Conversion
@@ -12,6 +12,17 @@
           </div>
         </section>
       <router-view/>
+        <div class="container is-small ">
+          <div class="content has-text-centered">
+            <p>
+            <a class="icon" href="https://github.com/naveenccmsd">
+              <i class="fa fa-github"></i>
+            </a>
+            <strong>EpochConvertor</strong> by <a href="https://github.com/naveenccmsd">Naveen.ccmsd</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+            </p>
+          </div>
+        </div>
     </div>
   </div>
 </template>
@@ -23,4 +34,7 @@ export default {
 </script>
 
 <style>
+footer {
+  background-color: #F2F6FA !important;
+}
 </style>
