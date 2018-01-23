@@ -12,12 +12,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "luxon": "^0.3.1",
-    "moment": "^2.20.1",
     "vue": "^2.5.2",
-    "vue-moment-lib": "^1.1.0",
-    "vue-router": "^3.0.1",
-    "vue2-momentjs": "^1.0.0"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
